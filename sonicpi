@@ -1,0 +1,85 @@
+use_bpm 190
+use_synth :piano
+play :a4
+play :a3
+play :a2
+sleep 0.4
+play :c5
+sleep 0.4
+play :e5
+sleep 0.4
+play :f5
+sleep 0.4
+
+play :e5
+sleep 0.4
+play :c5
+sleep 0.4
+play :a4
+play :a3
+play :a2
+sleep 0.4
+play :c5
+sleep 0.4
+
+play :e5
+sleep 0.4
+play :f5
+sleep 0.4
+play :e5
+sleep 0.4
+play :c5
+sleep 0.4
+
+play :a4
+play :a3
+play :a2
+sleep 0.4
+play :c5
+sleep 0.4
+play :a4
+play :a3
+play :a2
+sleep 0.4
+play :c5
+sleep 0.4
+
+play :a4
+play :a3
+play :a2
+sleep 0.4
+play :c5
+sleep 0.4
+play :e5
+sleep 0.4
+play :f5
+sleep 0.4
+
+play :e5
+sleep 0.4
+play :c5
+sleep 0.4
+play :a4
+play :a3
+play :a2
+sleep 0.4
+play :c5
+sleep 0.4
+
+play :e5
+sleep 0.4
+play :f5
+sleep 0.4
+play :g5
+sleep 0.4
+play :e5
+sleep 0.4
+
+play :c5
+sleep 0.4
+play :a4
+play :a3
+play :a2
+sleep 0.4
+play :c5
+sleep 0.4
