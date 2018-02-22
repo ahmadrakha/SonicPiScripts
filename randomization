@@ -42,7 +42,7 @@ end
 =begin
 live_loop :strategy3 do
   # assign a value to 'c' that will be used as the index value
-  c = play notes[rrand_i(0,3)]
+  c = play notes[rrand_i(0,7)]
   print c
   play c
   sleep 0.5
