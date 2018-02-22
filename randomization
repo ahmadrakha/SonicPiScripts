@@ -1,0 +1,50 @@
+# NAME OF SONG: Just Can't Get Enough by Depeche Mode
+# SHEET MUSIC: http://fileserver.freehandmusic.netdna-cdn.com/preview/530x4/sonyatv/snycvjcge.png
+# BPM USED: https://songbpm.com/just-can-t-get-enough?q=just%20can%27t%20get%20enough
+
+use_bpm 128
+=begin
+
+1. Use three different methods to choose random notes from the 'notes' array.
+2. DO NOT CHANGE ANY CODE, just assign values to the variables 'a', 'b', and 'c'.
+3. Use the blue values that print in the log to troubleshoot.
+4. Use the '=begin' and '=end' to comment out the two strategies you are not currently working on!
+
+=end
+
+
+# Stranger Things Main Theme
+use_bpm 160
+use_synth :saw
+notes = [:c2, :e2, :g2, :b2, :c3, :b2, :g2, :e2]
+
+=begin
+live_loop :strategy1 do
+  # assign a value to 'a' using the .choose method from the Randomisation reading on Tuesday
+  a = play notes.choose
+  print a
+  play a
+  sleep 0.5
+end
+=end
+
+=begin
+live_loop :strategy2 do
+  # assign a value to 'b' that will be used as the index value
+  b = play notes[dice(8)-1]
+  print b
+  play b
+  sleep 0.5
+end
+=end
+
+
+=begin
+live_loop :strategy3 do
+  # assign a value to 'c' that will be used as the index value
+  c = play notes[rrand_i(0,3)]
+  print c
+  play c
+  sleep 0.5
+end
+=end
