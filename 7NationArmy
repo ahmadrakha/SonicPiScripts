@@ -36,6 +36,25 @@ live_loop :drums do
   sleep 2
 end
 
+=begin
+:b4 :c4 :b5
+:b4 :c4 :c5
+:b4 :c4 :d5
+
+define: three_notes do|x|
+play :b4
+sleep 1
+play :c4
+sleep 1
+play x
+sleep 1
+end
+
+three_notes |:b5|
+three_notes |:c5|
+three_notes |:d5|
+=end
+
 
 
 
